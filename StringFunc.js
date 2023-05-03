@@ -1,0 +1,36 @@
+var str="This is a JavaScript File";
+var b=str.length; // length is a property
+document.write(b+"<br><br>");
+var c=str.toLowerCase();
+document.write(c+"<br><br>");
+var d=str.toUpperCase();
+document.write(d+"<br><br>");
+var e = str.includes("JavaScript"); //  it's a case sensitive function
+document.write(e+"<br><br>");
+var f = str.includes("Javascript");
+document.write(f+"<br><br>");
+var g=str.startsWith("This");
+document.write(g+"<br><br>");
+var h=str.startsWith("JavaScript");
+document.write(h+"<br><br>");
+var i=str.startsWith("This is a JavaScript File");
+document.write(i+"<br><br>");
+var j=str.endsWith("File");
+document.write(j+"<br><br>");
+var k=str.endsWith("Fil");
+document.write(k+"<br><br>");
+var l=str.endsWith("This is a JavaScript File");
+document.write(j+"<br><br>");
+var m=str.search(" is");
+document.write(m+"<br><br>");
+var  n = str.match(/is/g);
+document.write(n+"<br><br>");
+var o=str.indexOf("is");
+document.write(o+"<br><br>");
+var p = str.lastIndexOf("is");
+document.write(p+"<br><br>");
+var  q = str.replace("is","are");
+document.write(q+"<br><br>");
+var r = str.replace(/is/g,"are");
+document.write(r+"<br><br>");
+document.write(str+"<br><br>");
